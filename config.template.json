@@ -1,0 +1,36 @@
+{
+  "databases": {
+    "semantic_scholar": false,
+    "openalex": true,
+    "eric": true,
+    "crossref": true,
+    "arxiv": false
+  },
+  "keyword_groups": [
+    {
+      "label": "your-topic-1",
+      "terms": [
+        "your first keyword",
+        "another keyword",
+        "synonym or related phrase"
+      ]
+    },
+    {
+      "label": "your-topic-2",
+      "terms": [
+        "second topic keyword",
+        "another related term"
+      ]
+    }
+  ],
+  "date_from": "2015-01-01",
+  "date_until": "2026-05-25",
+  "max_per_query": 100,
+  "max_per_database": 1500,
+  "sleep": 0.5,
+  "crossref_mailto": "your-email@example.com",
+  "output_dir": "review-output",
+  "language": "en",
+  "auto_screen_keywords": false,
+  "required_in_title_abstract": []
+}
